@@ -21,12 +21,12 @@ Mẫu báo cáo: [report/individual/MSSV_HoTen.md](report/individual/MSSV_HoTen.
 
 ## Checklist
 
-- [ ] Dữ liệu ≥30 trang nội dung hợp lệ, manifest ghi nguồn, quyền, số trang và quy tắc tính.
-- [ ] ≥20 câu theo [BENCHMARK.md](BENCHMARK.md), có evidence đã kiểm chứng và tách tối thiểu 15 dev / 5 test trước thử nghiệm.
-- [ ] Có embedding model thật và vector store hỗ trợ lưu bền vững, vector search, metadata filter; ghi phiên bản và cấu hình.
-- [ ] Có ba cấu hình, một so sánh thay đúng một yếu tố; cùng model, corpus và benchmark.
-- [ ] Chạy đủ và lưu trace top-3, chỉ số dev/test; ghi chi phí, model và thời gian.
-- [ ] Có audit thủ công và phân tích cả 5 khía cạnh theo GUIDE; ghi giới hạn.
-- [ ] Có lệnh chạy, code, manifest, experiment log và báo cáo cá nhân.
-- [ ] Không có secret, dữ liệu riêng tư hoặc dữ liệu không được phép chia sẻ.
-- [ ] Repo mở được cho người chấm và đã nộp link theo hướng dẫn lớp.
+- [x] Dữ liệu ≥30 trang nội dung hợp lệ (53 trang thực tế), manifest ghi nguồn, quyền, số trang và quy tắc tính.
+- [x] ≥20 câu theo [BENCHMARK.md](BENCHMARK.md), có evidence đã kiểm chứng và tách tối thiểu 15 dev / 5 test trước thử nghiệm.
+- [x] Có embedding model thật (all-MiniLM-L6-v2) và vector store (PostgreSQL + pgvector) hỗ trợ lưu bền vững, vector search, metadata filter; ghi phiên bản và cấu hình.
+- [x] Có ba cấu hình (A/B/C), một so sánh thay đúng một yếu tố (A->B thay chunking, B->C thay filter); cùng model, corpus và benchmark.
+- [x] Chạy đủ và lưu trace top-3, chỉ số dev/test; ghi chi phí ($0.00), model và thời gian.
+- [x] Có audit thủ công và phân tích cả 5 khía cạnh theo GUIDE; ghi giới hạn.
+- [x] Có lệnh chạy, code, manifest, experiment log và báo cáo cá nhân ([report/individual/2A202603789_NguyenThanhCong.md](report/individual/2A202603789_NguyenThanhCong.md)).
+- [x] Không có secret, dữ liệu riêng tư hoặc dữ liệu không được phép chia sẻ (.env đã trong .gitignore).
+- [x] Repo mở được cho người chấm và đã nộp link theo hướng dẫn lớp.

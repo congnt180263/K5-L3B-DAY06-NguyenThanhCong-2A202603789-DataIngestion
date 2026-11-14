@@ -1,4 +1,4 @@
-strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+strategy_id,strategy_name,chunk_method,chunk_params,metadata_filter,chunk_count,ingest_time_sec,cost_usd,dev_hit1,dev_hit3,test_hit1,test_hit3
+Strategy A,Fixed-size,fixed_size,"size=500, overlap=50",None,242,5.15,0.0,6/15,8/15,2/5,2/5
+Strategy B,Paragraph-based,by_paragraph,max_size=800,None,173,5.68,0.0,7/15,9/15,1/5,3/5
+Strategy C,Paragraph + Filter,by_paragraph,max_size=800,section (when present),173,5.68,0.0,7/15,9/15,1/5,3/5

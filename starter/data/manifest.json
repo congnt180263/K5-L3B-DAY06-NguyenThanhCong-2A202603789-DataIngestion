@@ -1,0 +1,53 @@
+{
+  "manifest_version": "1.0",
+  "created_at": "2026-11-14",
+  "corpus_info": {
+    "corpus_id": "hardy-apology-corpus",
+    "topic": "Mathematics, Philosophy and Aesthetics of Science",
+    "language": "en"
+  },
+  "documents": [
+    {
+      "source_id": "hardy-1940",
+      "title": "A Mathematician's Apology",
+      "author": "G. H. Hardy (Godfrey Harold Hardy)",
+      "original_publication": "Cambridge University Press, November 1940",
+      "electronic_edition": "First Electronic Edition, Version 1.0 (March 2005) published by University of Alberta Mathematical Sciences Society",
+      "source_path": "data/A_Mathematicians_Apology.pdf",
+      "source_url": "https://www.math.ualberta.ca/~mss/",
+      "license_or_permission": "Public Domain (Author died December 1, 1947; 50+ years have elapsed, placing the work in the Public Domain in Canada and adhering to standard term regulations)",
+      "accessed_at": "2026-11-14",
+      "page_accounting": {
+        "total_physical_pages": 56,
+        "content_pages_count": 53,
+        "excluded_pages_count": 3,
+        "calculation_rules": "Trang vật lý 1 (Bìa/Tiêu đề), 2 (Thông tin xuất bản điện tử), và 3 (Lời đề tặng 1 dòng) bị loại trừ do không phải nội dung bài luận. Trang 4 (Preface), 5-54 (Nội dung chính: Phần 1 đến 29), và 55-56 (Phần Note bổ sung của tác giả) được tính là 53 trang nội dung hợp lệ (>30 trang theo yêu cầu), chứa trung bình ~1.875 ký tự/trang.",
+        "content_pages": [
+          4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+          21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+          41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56
+        ],
+        "excluded_pages": [1, 2, 3]
+      },
+      "statistics": {
+        "total_raw_characters": 99852,
+        "content_characters": 99409,
+        "average_characters_per_content_page": 1875.6
+      },
+      "metadata_schema": {
+        "mandatory_fields": [
+          "document_id",
+          "source",
+          "page"
+        ],
+        "filter_field": {
+          "name": "section",
+          "type": "string",
+          "description": "Numbered sections of the essay (Preface, Section 1 through Section 29, Note)",
+          "purpose": "Hỗ trợ lọc phạm vi chuyên đề cụ thể trong Chiến lược C (Metadata Filtering)"
+        }
+      }
+    }
+  ]
+}
+

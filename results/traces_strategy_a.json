@@ -1,0 +1,928 @@
+[
+  {
+    "question_id": "q01",
+    "split": "dev",
+    "question": "Who were the two scholars who provided valuable criticisms on Hardy's original manuscript?",
+    "expected_answer": "Professor C. D. Broad and Dr C. P. Snow",
+    "gold_page": 4,
+    "evidence_quote": "I am indebted for many valuable criticisms to Professor C. D. Broad and Dr C. P. Snow, each of whom read my original manuscript.",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "hardy-1940_p4_f0",
+        "page": 4,
+        "section": "Preface",
+        "score": 0.3866,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "Preface I am indebted for many valuable criticisms to Professor C. D. Broad and Dr C. P. Snow, each of whom read my orig..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hardy-1940_p4_f1",
+        "page": 4,
+        "section": "Preface",
+        "score": 0.3493,
+        "page_match": true,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "n the year, and I found it impossible to remodel what I had written so recently and with so much care. Also, if I ha d t..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hardy-1940_p5_f1",
+        "page": 5,
+        "section": "Section 1",
+        "score": 0.3039,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "on the whole more justifiable, than that of the men who make for the men who explain. Exposition, critic ism, appreciati..."
+      }
+    ]
+  },
+  {
+    "question_id": "q02",
+    "split": "dev",
+    "question": "According to Hardy in Section 1, what is the proper function of a professional mathematician?",
+    "expected_answer": "To do something, prove new theorems, and add to mathematics, rather than talk about what others have done.",
+    "gold_page": 5,
+    "evidence_quote": "The function of a mathematician is to do something, to prove new theorems, to add to mathematics, and not to talk about what he or other mathematicians have done.",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "hardy-1940_p45_f1",
+        "page": 45,
+        "section": "Section 26",
+        "score": 0.4917,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "where the finest imaginations have run riot. But is not the position of an ordinary applied mathematician in some ways a..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hardy-1940_p41_f3",
+        "page": 41,
+        "section": "Section 24",
+        "score": 0.485,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "ds which I used in 1922 in an address to Section A of the Br itish Association. My audience there was composed almost en..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hardy-1940_p46_f4",
+        "page": 46,
+        "section": "Section 27",
+        "score": 0.4603,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "e spares no pains to show). ‘Real’ mathematics is to him merely an object of contemptuous pity."
+      }
+    ]
+  },
+  {
+    "question_id": "q03",
+    "split": "dev",
+    "question": "Why does Hardy consider exposition, criticism, and appreciation to be activities for second-rate minds?",
+    "expected_answer": "Because creators naturally despise critics and explainers, and making is fundamentally superior to explaining.",
+    "gold_page": 5,
+    "evidence_quote": "there is no scorn more profound, or on the whole more justifiable, than that of the men who make for the men who explain. Exposition, criticism, appreciation, is work for second-rate minds.",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "hardy-1940_p5_f1",
+        "page": 5,
+        "section": "Section 1",
+        "score": 0.5303,
+        "page_match": true,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "on the whole more justifiable, than that of the men who make for the men who explain. Exposition, critic ism, appreciati..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hardy-1940_p9_f1",
+        "page": 9,
+        "section": "Section 3",
+        "score": 0.3617,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "irely in sympathy with all such attempts at remarkable achievement. I feel some symp athy even with conjurors and ventri..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hardy-1940_p35_f2",
+        "page": 35,
+        "section": "Section 20",
+        "score": 0.3588,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "like poetry or music, ‘promote and sustain a lofty habit of mind’, and so increase the happiness of mathem aticians and ..."
+      }
+    ]
+  },
+  {
+    "question_id": "q04",
+    "split": "dev",
+    "question": "Which prominent poet and scholar did Hardy have a serious conversation with regarding the value of poetry and criticism?",
+    "expected_answer": "A. E. Housman",
+    "gold_page": 5,
+    "evidence_quote": "I can remember arguing this point once in one of the few serious conversations that I ever had with Housman. Housman, in his Leslie Stephen lecture The Name and Nature of Poetry",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "hardy-1940_p6_f0",
+        "page": 6,
+        "section": "Section 2",
+        "score": 0.485,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "2 It had seemed to me deplorable that a great scholar and a fine poet should write like this, and, finding myself next t..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hardy-1940_p5_f1",
+        "page": 5,
+        "section": "Section 1",
+        "score": 0.4648,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "on the whole more justifiable, than that of the men who make for the men who explain. Exposition, critic ism, appreciati..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hardy-1940_p18_f0",
+        "page": 18,
+        "section": "Section 10",
+        "score": 0.4251,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "14 ideas count for a good deal more; but, as Housman insisted, the importance of ideas in poetry is habitually exaggerat..."
+      }
+    ]
+  },
+  {
+    "question_id": "q05",
+    "split": "dev",
+    "question": "In Section 4, under what circumstances can a mathematician's sacrifice of their talent to do work in other fields be justified?",
+    "expected_answer": "Only by economic necessity or age.",
+    "gold_page": 10,
+    "evidence_quote": "Such a sacrifice could be justified only by economic necessity or age.",
+    "filter": {
+      "section": "Section 4"
+    },
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "hardy-1940_p10_f1",
+        "page": 10,
+        "section": "Section 4",
+        "score": 0.7297,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "s one talent in order to do undistinguished work in othe r fields. Such a sacrifice could be justified only by economic ..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hardy-1940_p16_f3",
+        "page": 16,
+        "section": "Section 8",
+        "score": 0.5815,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "just for one act of conscientious imbecility, dutifully performed at the expense of their country’s gr eatest man. But o..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hardy-1940_p11_f2",
+        "page": 11,
+        "section": "Section 5",
+        "score": 0.5363,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "1 There may have been young men who would have been firs t-rate mathematician if they had stuck in mathematics, but I ha..."
+      }
+    ]
+  },
+  {
+    "question_id": "q06",
+    "split": "dev",
+    "question": "What government position did Sir Isaac Newton hold later in his life after largely abandoning mathematics?",
+    "expected_answer": "Master of the Mint",
+    "gold_page": 11,
+    "evidence_quote": "Newton made a quite competent Master of the Mint (when he was not quarrelling with anybody). Painlevé was a not very successful Premier of France.",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "hardy-1940_p10_f2",
+        "page": 10,
+        "section": "Section 4",
+        "score": 0.6751,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "the average age of election to the Royal Society is lowest in mathematics. We can naturally find much more striking illu..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hardy-1940_p11_f0",
+        "page": 11,
+        "section": "Section 5",
+        "score": 0.6425,
+        "page_match": true,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "7 had had the fundamental ideas ten years before). I do not know an instance of a major mathematical advance initiated b..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hardy-1940_p11_f1",
+        "page": 11,
+        "section": "Section 5",
+        "score": 0.4786,
+        "page_match": true,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "ent Master of the Mint (when he was not quarrelling with anybo dy). Painlevé was a not very successful Premier of France..."
+      }
+    ]
+  },
+  {
+    "question_id": "q07",
+    "split": "dev",
+    "question": "What does Hardy observe regarding major mathematical advances initiated by mathematicians past fifty years of age?",
+    "expected_answer": "He does not know of any instance of a major mathematical advance initiated by a person past fifty.",
+    "gold_page": 11,
+    "evidence_quote": "I do not know an instance of a major mathematical advance initiated by a man past fifty.",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "hardy-1940_p11_f0",
+        "page": 11,
+        "section": "Section 5",
+        "score": 0.5954,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "7 had had the fundamental ideas ten years before). I do not know an instance of a major mathematical advance initiated b..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hardy-1940_p10_f3",
+        "page": 10,
+        "section": "Section 4",
+        "score": 0.5614,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": ", fluxions and the law of gravitation, came to him about 1666 , when he was twentyfour—'in those days I was in the prime..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hardy-1940_p10_f2",
+        "page": 10,
+        "section": "Section 4",
+        "score": 0.5083,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "the average age of election to the Royal Society is lowest in mathematics. We can naturally find much more striking illu..."
+      }
+    ]
+  },
+  {
+    "question_id": "q08",
+    "split": "dev",
+    "question": "In Section 8, what are the three chief motives that Hardy lists for doing scientific research?",
+    "expected_answer": "Intellectual curiosity, professional pride, and ambition.",
+    "gold_page": 15,
+    "evidence_quote": "There are many highly respected motives which may lead men to prosecute research, but three which are much more important than the rest. The first (without which the rest must come to nothing) is intellectual curiosity, desire to know the truth. Then, professional pride",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "hardy-1940_p15_f0",
+        "page": 15,
+        "section": "Section 8",
+        "score": 0.4779,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "11 are indistinguishable form thos e of a classical scholar or a mathematician. There are many highly respected motives ..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hardy-1940_p43_f4",
+        "page": 43,
+        "section": "Section 25",
+        "score": 0.455,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "meeting in Leeds, and it was thought that the members might like to hear something of the applications of science to the..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hardy-1940_p15_f2",
+        "page": 15,
+        "section": "Section 8",
+        "score": 0.4329,
+        "page_match": true,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "sired to benefit humanity, then I should not believe him (nor should I think the better of him if I did). His dominant m..."
+      }
+    ]
+  },
+  {
+    "question_id": "q09",
+    "split": "dev",
+    "question": "How does Hardy compare mathematicians to painters and poets regarding the patterns they create?",
+    "expected_answer": "A mathematician is a maker of patterns with ideas, which may be more permanent than the patterns of forms or words made by painters and poets.",
+    "gold_page": 17,
+    "evidence_quote": "A mathematician, like a painter or a poet, is a maker of patterns. If his patterns are more permanent than theirs, it is because they are made with ideas.",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "hardy-1940_p17_f3",
+        "page": 17,
+        "section": "Section 10",
+        "score": 0.6144,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "es, seemed puzzled for a mo ment by the curious symbolism, closed the volume, balanced it in his hand and hesitated.... ..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hardy-1940_p25_f2",
+        "page": 25,
+        "section": "Section 2",
+        "score": 0.5417,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "cl ear. So I will not try to give more examples. Those which I have given are test cases, and a reader who cannot apprec..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hardy-1940_p18_f1",
+        "page": 18,
+        "section": "Section 10",
+        "score": 0.5353,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "y to affect the beauty of the verbal pattern. A mathematician, on the other hand, has no material to work with but ideas..."
+      }
+    ]
+  },
+  {
+    "question_id": "q10",
+    "split": "dev",
+    "question": "What musical metaphor does Hardy use to describe chess problems in relation to mathematics?",
+    "expected_answer": "Chess problems are the hymn-tunes of mathematics.",
+    "gold_page": 19,
+    "evidence_quote": "Chess problems are the hymn-tunes of mathematics.",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "hardy-1940_p19_f2",
+        "page": 19,
+        "section": "Section 10",
+        "score": 0.6551,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "educated population; and every chess-play er can recognize and appreciate a ‘beautiful’ game or problem . Yet a chess pr..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hardy-1940_p19_f1",
+        "page": 19,
+        "section": "Section 10",
+        "score": 0.6087,
+        "page_match": true,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "motion, while mathematics cannot; and musical incapacity is recognized (no doubt rightly) as mildly discreditable, where..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hardy-1940_p34_f2",
+        "page": 34,
+        "section": "Section 19",
+        "score": 0.5516,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "ch and such a move, then I had such and such a winning combination in mind.’ But the ‘great game’ of chess is primarily ..."
+      }
+    ]
+  },
+  {
+    "question_id": "q11",
+    "split": "dev",
+    "question": "In Section 11, why does Hardy characterize chess problems as trivial mathematics despite their ingenuity?",
+    "expected_answer": "Because chess problems, however ingenious and intricate, are unimportant and lack genuine seriousness.",
+    "gold_page": 20,
+    "evidence_quote": "A chess problem is genuine mathematics, but it is in some way ‘trivial’ mathematics. However ingenious and intricate, however original and surprising the moves, there is something essential lacking. Chess problems are unimportant. The best mathematics is serious as well as beautiful",
+    "filter": {
+      "section": "Section 11"
+    },
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "hardy-1940_p20_f3",
+        "page": 20,
+        "section": "Section 11",
+        "score": 0.5819,
+        "page_match": true,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "mathematical id eas. Thus a serious mathematical theorem, a theorem which c onnects significant ideas, is likely to lead..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hardy-1940_p19_f2",
+        "page": 19,
+        "section": "Section 10",
+        "score": 0.5698,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "educated population; and every chess-play er can recognize and appreciate a ‘beautiful’ game or problem . Yet a chess pr..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hardy-1940_p20_f0",
+        "page": 20,
+        "section": "Section 11",
+        "score": 0.5604,
+        "page_match": true,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "16 republished in his autobiography a theorem about circles which he proved when he was twenty (not knowing that it had ..."
+      }
+    ]
+  },
+  {
+    "question_id": "q12",
+    "split": "dev",
+    "question": "Which two classical Greek theorems does Hardy present to illustrate first-rate, genuine mathematical beauty?",
+    "expected_answer": "Euclid's proof of the infinity of primes and Pythagoras's proof of the irrationality of the square root of 2.",
+    "gold_page": 22,
+    "evidence_quote": "I will state and prove two of the famous theorems of Greek mathematics. They are ‘simple’ theorems, simple both in idea and in execution, but there is no doubt at all about their being theorems of the highest class.",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "hardy-1940_p22_f0",
+        "page": 22,
+        "section": "Section 12",
+        "score": 0.5838,
+        "page_match": true,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "18 reciprocity. And on the other hand my examples should be drawn from the ‘pukka’ mathematics, th e mathematics of the ..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hardy-1940_p27_f1",
+        "page": 27,
+        "section": "Section 14",
+        "score": 0.5796,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "the fifth book of the Elements, and which is regarded by many modern mathema ticians as the finest achievement of Greek ..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hardy-1940_p21_f1",
+        "page": 21,
+        "section": "Section 12",
+        "score": 0.5515,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "t, and because I have no qualifications for any se rious discussion in aesthetics. The beauty of a mathematical theorem ..."
+      }
+    ]
+  },
+  {
+    "question_id": "q13",
+    "split": "dev",
+    "question": "What geometric fact follows directly from Pythagoras's proof of the irrationality of root 2?",
+    "expected_answer": "The diagonal of a square is incommensurable with its side.",
+    "gold_page": 24,
+    "evidence_quote": "It follows from Pythagoras’s theorem that the diagonal of a square is incommensurable with the side (that their ratio is not a rational number",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "hardy-1940_p32_f0",
+        "page": 32,
+        "section": "Section 17",
+        "score": 0.6119,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "28 difficult) the idea. Thus the idea of an ‘irrational’ is deeper than that of an integer; and Pythagoras’s theorem is,..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hardy-1940_p23_f3",
+        "page": 23,
+        "section": "Section 2",
+        "score": 0.59,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "e suppose that (B) is true, a and b being integers without any common factor. It follows from (B) that 2a is even (since..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hardy-1940_p26_f4",
+        "page": 26,
+        "section": "Section 14",
+        "score": 0.5892,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "izations of Pythagoras’s argument, and of a historical puzzled about Theaetetus."
+      }
+    ]
+  },
+  {
+    "question_id": "q14",
+    "split": "dev",
+    "question": "Why will Archimedes be remembered long after the tragic dramatist Aeschylus is forgotten?",
+    "expected_answer": "Because human languages die out while mathematical ideas do not.",
+    "gold_page": 16,
+    "evidence_quote": "Archimedes will be remembered when Aeschylus is forgotten, because languages die and mathematical ideas do not.",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "hardy-1940_p55_f3",
+        "page": 55,
+        "section": "Note",
+        "score": 0.7608,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "ave found it impossible to meet them in my text, and c ontent myself with this acknowledgement. Dr Snow had also made an..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hardy-1940_p16_f1",
+        "page": 16,
+        "section": "Section 8",
+        "score": 0.5569,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "r schoolboys or ‘scholarship candidates’, but ‘Fe llows of another college’. So Greek mathematics is ‘permanent ’, more ..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hardy-1940_p55_f4",
+        "page": 55,
+        "section": "Note",
+        "score": 0.4883,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "alone, while Archimedes and Eudoxus would remain mere names."
+      }
+    ]
+  },
+  {
+    "question_id": "q15",
+    "split": "dev",
+    "question": "What is Hardy's philosophical stance regarding mathematical reality described in Section 22?",
+    "expected_answer": "He believes mathematical reality lies outside us, and our role is to discover or observe it rather than construct it.",
+    "gold_page": 39,
+    "evidence_quote": "I believe that mathematical reality lies outside us, that our function is to discover or observe it, and that the theorems which we prove, and which we describe grandiloquently as our ‘creations’, are simply our notes of our observations.",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "hardy-1940_p42_f2",
+        "page": 42,
+        "section": "Section 24",
+        "score": 0.5886,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "o. It is plain that he is trying to correlate the incoherent body of crude fact confronting him with some defi nite and ..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hardy-1940_p38_f4",
+        "page": 38,
+        "section": "Section 22",
+        "score": 0.5469,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "sort of agreemen t about the nature of mathematical reality among either mathema ticians or philosophers. Some"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hardy-1940_p46_f4",
+        "page": 46,
+        "section": "Section 27",
+        "score": 0.5193,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "e spares no pains to show). ‘Real’ mathematics is to him merely an object of contemptuous pity."
+      }
+    ]
+  },
+  {
+    "question_id": "q16",
+    "split": "test",
+    "question": "What elementary branches of school mathematics does Hardy classify as genuinely useful in practical everyday life?",
+    "expected_answer": "Arithmetic, elementary algebra, elementary Euclidean geometry, and elementary differential and integral calculus.",
+    "gold_page": 44,
+    "evidence_quote": "First, the bulk of school mathematics, arithmetic, elementary algebra, elementary Euclidean geometry, elementary differential and integral calculus.",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "hardy-1940_p44_f1",
+        "page": 44,
+        "section": "Section 26",
+        "score": 0.6067,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "udiences that they drew. 26 What parts of mathematics are useful? First, the bulk of school mathem atics, arithmetic, el..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hardy-1940_p36_f3",
+        "page": 36,
+        "section": "Section 21",
+        "score": 0.5815,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "ably be plain by now to what conclusions I am coming; so I will state them at once dogmatically and then elaborate them ..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hardy-1940_p35_f2",
+        "page": 35,
+        "section": "Section 20",
+        "score": 0.5523,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "like poetry or music, ‘promote and sustain a lofty habit of mind’, and so increase the happiness of mathem aticians and ..."
+      }
+    ]
+  },
+  {
+    "question_id": "q17",
+    "split": "test",
+    "question": "Why does Hardy assert in Section 28 that pure or 'real' mathematics has no adverse effects on warfare?",
+    "expected_answer": "Because no warlike purpose has ever been discovered for pure mathematics such as the theory of numbers or relativity.",
+    "gold_page": 48,
+    "evidence_quote": "Real mathematics has no effects on war. No one has yet discovered any warlike purpose to be served by the theory of numbers or relativity",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "hardy-1940_p12_f4",
+        "page": 12,
+        "section": "Section 6",
+        "score": 0.5863,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "ole problem of the effect of science on war. Is math ematics harmless, in the sense in"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hardy-1940_p47_f3",
+        "page": 47,
+        "section": "Section 28",
+        "score": 0.5694,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "ly by mathematicians. We have still one more questi on to consider. We have concluded that the trivial mathematics is, o..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hardy-1940_p48_f2",
+        "page": 48,
+        "section": "Section 28",
+        "score": 0.5597,
+        "page_match": true,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "ld not who can? So a real mathematician has his conscience clear; there is nothing to be set against any value his work ..."
+      }
+    ]
+  },
+  {
+    "question_id": "q18",
+    "split": "test",
+    "question": "How does Hardy summarize his life's accomplishment and justification in the conclusion of Section 29?",
+    "expected_answer": "He has added something to knowledge and helped others add more, which has a lasting value differing only in degree from the creations of great artists.",
+    "gold_page": 54,
+    "evidence_quote": "I have added something to knowledge, and helped others to add more; and that these somethings have a value which differs in degree only, and not in kind, from that of the creations of the great mathematicians",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "hardy-1940_p50_f0",
+        "page": 50,
+        "section": "Section 29",
+        "score": 0.3746,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "46 is a pity, but in that case he do es not matter a great deal anyhow, and it would be silly to bother about him. 29 I ..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hardy-1940_p20_f4",
+        "page": 20,
+        "section": "Section 11",
+        "score": 0.3432,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "idence for its seriousness.\n\n2 See his letter on the ‘Hexlet’ in Nature, vols. 127-9 (1936-7)."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hardy-1940_p4_f0",
+        "page": 4,
+        "section": "Preface",
+        "score": 0.3349,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "Preface I am indebted for many valuable criticisms to Professor C. D. Broad and Dr C. P. Snow, each of whom read my orig..."
+      }
+    ]
+  },
+  {
+    "question_id": "q19",
+    "split": "test",
+    "question": "In the author's Note at the end, what three systemic effects of science on war did critics urge Hardy to acknowledge?",
+    "expected_answer": "Organization of whole populations for war through scientific methods, increased power of propaganda used almost exclusively for evil, and the elimination of neutrality.",
+    "gold_page": 55,
+    "evidence_quote": "(a) that the organization of an entire population for war is only possible through scientific methods; (b) that science has greatly increased the power of propaganda, which is used almost exclusively for evil; and (c) that it has made ‘neutrality’ almost impossible",
+    "filter": {
+      "section": "Note"
+    },
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "hardy-1940_p55_f0",
+        "page": 55,
+        "section": "Note",
+        "score": 0.6639,
+        "page_match": true,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "51 Note Professor Broad and Dr Snow have both remarked to me that, if I am to strike a fair balance between the good and..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hardy-1940_p48_f3",
+        "page": 48,
+        "section": "Section 28",
+        "score": 0.6007,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "es (if not so obviously as physics or chemis try) modern, scientific, ‘total’ war. It is not so clear as it might seem t..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hardy-1940_p55_f2",
+        "page": 55,
+        "section": "Note",
+        "score": 0.5675,
+        "page_match": true,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "n if we press this case to the utmost, it is hardly possible to maintain seriously that the evil done by science is not ..."
+      }
+    ]
+  },
+  {
+    "question_id": "q20",
+    "split": "test",
+    "question": "What metaphor concerning Nelson's Column in Trafalgar Square did J. M. Lomas propose regarding recognition and fame?",
+    "expected_answer": "Whether one would prefer a statue so high that it is invisible (Hardy's choice) or low enough for features to be recognized (Snow's probable choice).",
+    "gold_page": 56,
+    "evidence_quote": "If I had a statue on a column in London, would I prefer the columns to be so high that the statue was invisible, or low enough for the features to be recognizable? I would choose the first alternative",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "hardy-1940_p56_f0",
+        "page": 56,
+        "section": "Note",
+        "score": 0.5802,
+        "page_match": true,
+        "evidence_match": true,
+        "is_hit": true,
+        "text_snippet": "52 Mr J. M. Lomas put this point more picturesquely when we were passing the Nelson column in Trafalgar square. If I had..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hardy-1940_p42_f2",
+        "page": 42,
+        "section": "Section 24",
+        "score": 0.3205,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "o. It is plain that he is trying to correlate the incoherent body of crude fact confronting him with some defi nite and ..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hardy-1940_p14_f1",
+        "page": 14,
+        "section": "Section 7",
+        "score": 0.3185,
+        "page_match": false,
+        "evidence_match": false,
+        "is_hit": false,
+        "text_snippet": "and land, What shall I build or write Against the fall of night?\n\nTell me of runes to grave That hold the bursting wave,..."
+      }
+    ]
+  }
+]

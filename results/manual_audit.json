@@ -1,0 +1,1133 @@
+{
+  "metadata": {
+    "auditor": "Nguyễn Thành Công (Tác giả pipeline - Lưu ý rủi ro thiên lệch tự đánh giá)",
+    "audit_date": "2026-11-14",
+    "corpus": "A Mathematician's Apology (G. H. Hardy, 1940)",
+    "sample_selection_policy": "Coherence: 10 vị trí trang đầu tiên sắp xếp tăng dần trong tập content_pages [4, 5, 10, 11, 15, 17, 20, 24, 44, 54]. Metadata & Grounding: 5 câu test cố định độc lập (q16-q20)."
+  },
+  "chunk_coherence": {
+    "scale": "0 = Bị cắt giữa câu/ý làm mất nghĩa, 1 = Hiểu một phần nhưng thiếu ngữ cảnh, 2 = Tự hiểu được trọn vẹn ý tưởng",
+    "sample_pages": [
+      4,
+      5,
+      10,
+      11,
+      15,
+      17,
+      20,
+      24,
+      44,
+      54
+    ],
+    "strategy_a": {
+      "average": 1.1,
+      "samples": [
+        {
+          "page": 4,
+          "chunk_id": "hardy-1940_p4_f0",
+          "score": 1,
+          "length_chars": 500,
+          "snippet_end": ", and I found it impossible to remodel w",
+          "reason": "Cắt ngang giữa danh sách lời cảm ơn: '... I found it impossible to remodel w'. Thiếu ngữ cảnh đoạn sau."
+        },
+        {
+          "page": 5,
+          "chunk_id": "hardy-1940_p5_f0",
+          "score": 1,
+          "length_chars": 500,
+          "snippet_end": "ole more justifiable, than that of the m",
+          "reason": "Cắt cứng ở 500 ký tự làm câu bị đứt đoạn cuối: '...ore justifiable, than that of the m'. Thiếu vế kết của câu."
+        },
+        {
+          "page": 10,
+          "chunk_id": "hardy-1940_p10_f0",
+          "score": 1,
+          "length_chars": 500,
+          "snippet_end": "nt in order to do undistinguished work i",
+          "reason": "Cắt cứng ở 500 ký tự làm câu bị đứt đoạn cuối: '... order to do undistinguished work i'. Thiếu vế kết của câu."
+        },
+        {
+          "page": 11,
+          "chunk_id": "hardy-1940_p11_f0",
+          "score": 1,
+          "length_chars": 500,
+          "snippet_end": "r of the Mint (when he was not quarrelli",
+          "reason": "Cắt cứng ở 500 ký tự làm câu bị đứt đoạn cuối: '...the Mint (when he was not quarrelli'. Thiếu vế kết của câu."
+        },
+        {
+          "page": 15,
+          "chunk_id": "hardy-1940_p15_f0",
+          "score": 1,
+          "length_chars": 500,
+          "snippet_end": " his work is unworthy of his talent. Fin",
+          "reason": "Cắt cứng ở 500 ký tự làm câu bị đứt đoạn cuối: '...work is unworthy of his talent. Fin'. Thiếu vế kết của câu."
+        },
+        {
+          "page": 17,
+          "chunk_id": "hardy-1940_p17_f0",
+          "score": 1,
+          "length_chars": 499,
+          "snippet_end": "ar; and security of te nure is naturally",
+          "reason": "Cắt cứng ở 500 ký tự làm câu bị đứt đoạn cuối: '...nd security of te nure is naturally'. Thiếu vế kết của câu."
+        },
+        {
+          "page": 20,
+          "chunk_id": "hardy-1940_p20_f0",
+          "score": 1,
+          "length_chars": 500,
+          "snippet_end": "ntial lacking. Chess problems are unimpo",
+          "reason": "Cắt cứng ở 500 ký tự làm câu bị đứt đoạn cuối: '... lacking. Chess problems are unimpo'. Thiếu vế kết của câu."
+        },
+        {
+          "page": 24,
+          "chunk_id": "hardy-1940_p24_f0",
+          "score": 1,
+          "length_chars": 500,
+          "snippet_end": "uare is incommensurable with th e side (",
+          "reason": "Cắt cứng ở 500 ký tự làm câu bị đứt đoạn cuối: '...is incommensurable with th e side ('. Thiếu vế kết của câu."
+        },
+        {
+          "page": 44,
+          "chunk_id": "hardy-1940_p44_f0",
+          "score": 1,
+          "length_chars": 500,
+          "snippet_end": "hat they drew. 26 What parts of mathemat",
+          "reason": "Cắt cứng ở 500 ký tự làm câu bị đứt đoạn cuối: '...hey drew. 26 What parts of mathemat'. Thiếu vế kết của câu."
+        },
+        {
+          "page": 54,
+          "chunk_id": "hardy-1940_p54_f0",
+          "score": 2,
+          "length_chars": 321,
+          "snippet_end": " left some kind of memorial behind them.",
+          "reason": "Trang 54 rất ngắn (325 ký tự), trọn vẹn toàn bộ kết luận trong một chunk duy nhất."
+        }
+      ]
+    },
+    "strategy_b": {
+      "average": 2.0,
+      "samples": [
+        {
+          "page": 4,
+          "chunk_id": "hardy-1940_p4_p0",
+          "score": 2,
+          "length_chars": 713,
+          "snippet_end": "o destroy the whole balance of my essay.",
+          "reason": "Bảo toàn hoàn chỉnh ranh giới đoạn văn và dấu câu kết thúc ý tưởng."
+        },
+        {
+          "page": 5,
+          "chunk_id": "hardy-1940_p5_p0",
+          "score": 2,
+          "length_chars": 714,
+          "snippet_end": "versations that I ever had with Housman.",
+          "reason": "Bảo toàn hoàn chỉnh ranh giới đoạn văn và dấu câu kết thúc ý tưởng."
+        },
+        {
+          "page": 10,
+          "chunk_id": "hardy-1940_p10_p0",
+          "score": 2,
+          "length_chars": 705,
+          "snippet_end": "ticularly important for ma thematicians.",
+          "reason": "Bảo toàn hoàn chỉnh ranh giới đoạn văn và dấu câu kết thúc ý tưởng."
+        },
+        {
+          "page": 11,
+          "chunk_id": "hardy-1940_p11_p0",
+          "score": 2,
+          "length_chars": 746,
+          "snippet_end": " and never really ‘gave up’ mathematics.",
+          "reason": "Bảo toàn hoàn chỉnh ranh giới đoạn văn và dấu câu kết thúc ý tưởng."
+        },
+        {
+          "page": 15,
+          "chunk_id": "hardy-1940_p15_p0",
+          "score": 2,
+          "length_chars": 771,
+          "snippet_end": "rs, but that will not be why you did it.",
+          "reason": "Bảo toàn hoàn chỉnh ranh giới đoạn văn và dấu câu kết thúc ý tưởng."
+        },
+        {
+          "page": 17,
+          "chunk_id": "hardy-1940_p17_p0",
+          "score": 2,
+          "length_chars": 783,
+          "snippet_end": "d to be a man forgotten in twenty years.",
+          "reason": "Bảo toàn hoàn chỉnh ranh giới đoạn văn và dấu câu kết thúc ý tưởng."
+        },
+        {
+          "page": 20,
+          "chunk_id": "hardy-1940_p20_p0",
+          "score": 2,
+          "length_chars": 734,
+          "snippet_end": "practi cal’ consequences of mathematics.",
+          "reason": "Bảo toàn hoàn chỉnh ranh giới đoạn văn và dấu câu kết thúc ý tưởng."
+        },
+        {
+          "page": 24,
+          "chunk_id": "hardy-1940_p24_p0",
+          "score": 2,
+          "length_chars": 603,
+          "snippet_end": "t of which both are integral multiples).",
+          "reason": "Bảo toàn hoàn chỉnh ranh giới đoạn văn và dấu câu kết thúc ý tưởng."
+        },
+        {
+          "page": 44,
+          "chunk_id": "hardy-1940_p44_p0",
+          "score": 2,
+          "length_chars": 762,
+          "snippet_end": "pecialist’, such as projective geometry.",
+          "reason": "Bảo toàn hoàn chỉnh ranh giới đoạn văn và dấu câu kết thúc ý tưởng."
+        },
+        {
+          "page": 54,
+          "chunk_id": "hardy-1940_p54_p0",
+          "score": 2,
+          "length_chars": 321,
+          "snippet_end": " left some kind of memorial behind them.",
+          "reason": "Bảo toàn hoàn chỉnh ranh giới đoạn văn và dấu câu kết thúc ý tưởng."
+        }
+      ]
+    },
+    "strategy_c": {
+      "average": 2.0,
+      "samples": [
+        {
+          "page": 4,
+          "chunk_id": "hardy-1940_p4_p0",
+          "score": 2,
+          "length_chars": 713,
+          "snippet_end": "o destroy the whole balance of my essay.",
+          "reason": "Kế thừa hoàn toàn chunking theo đoạn của Chiến lược B: Bảo toàn hoàn chỉnh ranh giới đoạn văn và dấu câu kết thúc ý tưởng."
+        },
+        {
+          "page": 5,
+          "chunk_id": "hardy-1940_p5_p0",
+          "score": 2,
+          "length_chars": 714,
+          "snippet_end": "versations that I ever had with Housman.",
+          "reason": "Kế thừa hoàn toàn chunking theo đoạn của Chiến lược B: Bảo toàn hoàn chỉnh ranh giới đoạn văn và dấu câu kết thúc ý tưởng."
+        },
+        {
+          "page": 10,
+          "chunk_id": "hardy-1940_p10_p0",
+          "score": 2,
+          "length_chars": 705,
+          "snippet_end": "ticularly important for ma thematicians.",
+          "reason": "Kế thừa hoàn toàn chunking theo đoạn của Chiến lược B: Bảo toàn hoàn chỉnh ranh giới đoạn văn và dấu câu kết thúc ý tưởng."
+        },
+        {
+          "page": 11,
+          "chunk_id": "hardy-1940_p11_p0",
+          "score": 2,
+          "length_chars": 746,
+          "snippet_end": " and never really ‘gave up’ mathematics.",
+          "reason": "Kế thừa hoàn toàn chunking theo đoạn của Chiến lược B: Bảo toàn hoàn chỉnh ranh giới đoạn văn và dấu câu kết thúc ý tưởng."
+        },
+        {
+          "page": 15,
+          "chunk_id": "hardy-1940_p15_p0",
+          "score": 2,
+          "length_chars": 771,
+          "snippet_end": "rs, but that will not be why you did it.",
+          "reason": "Kế thừa hoàn toàn chunking theo đoạn của Chiến lược B: Bảo toàn hoàn chỉnh ranh giới đoạn văn và dấu câu kết thúc ý tưởng."
+        },
+        {
+          "page": 17,
+          "chunk_id": "hardy-1940_p17_p0",
+          "score": 2,
+          "length_chars": 783,
+          "snippet_end": "d to be a man forgotten in twenty years.",
+          "reason": "Kế thừa hoàn toàn chunking theo đoạn của Chiến lược B: Bảo toàn hoàn chỉnh ranh giới đoạn văn và dấu câu kết thúc ý tưởng."
+        },
+        {
+          "page": 20,
+          "chunk_id": "hardy-1940_p20_p0",
+          "score": 2,
+          "length_chars": 734,
+          "snippet_end": "practi cal’ consequences of mathematics.",
+          "reason": "Kế thừa hoàn toàn chunking theo đoạn của Chiến lược B: Bảo toàn hoàn chỉnh ranh giới đoạn văn và dấu câu kết thúc ý tưởng."
+        },
+        {
+          "page": 24,
+          "chunk_id": "hardy-1940_p24_p0",
+          "score": 2,
+          "length_chars": 603,
+          "snippet_end": "t of which both are integral multiples).",
+          "reason": "Kế thừa hoàn toàn chunking theo đoạn của Chiến lược B: Bảo toàn hoàn chỉnh ranh giới đoạn văn và dấu câu kết thúc ý tưởng."
+        },
+        {
+          "page": 44,
+          "chunk_id": "hardy-1940_p44_p0",
+          "score": 2,
+          "length_chars": 762,
+          "snippet_end": "pecialist’, such as projective geometry.",
+          "reason": "Kế thừa hoàn toàn chunking theo đoạn của Chiến lược B: Bảo toàn hoàn chỉnh ranh giới đoạn văn và dấu câu kết thúc ý tưởng."
+        },
+        {
+          "page": 54,
+          "chunk_id": "hardy-1940_p54_p0",
+          "score": 2,
+          "length_chars": 321,
+          "snippet_end": " left some kind of memorial behind them.",
+          "reason": "Kế thừa hoàn toàn chunking theo đoạn của Chiến lược B: Bảo toàn hoàn chỉnh ranh giới đoạn văn và dấu câu kết thúc ý tưởng."
+        }
+      ]
+    }
+  },
+  "metadata_audit": {
+    "criteria": "Kiểm tra sự tồn tại và tính hợp lệ của source (chuỗi path đúng), page (số nguyên thuộc 4-56), section (tên mục hợp lệ). Với câu có filter, kiểm tra tỷ lệ tuân thủ filter.",
+    "strategy_a": {
+      "valid_records": "15/15",
+      "compliance_rate": "100.0%",
+      "filter_compliance": "0/1",
+      "records": [
+        {
+          "question_id": "q16",
+          "rank": 1,
+          "chunk_id": "hardy-1940_p44_f1",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 44,
+          "section": "Section 26",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q16",
+          "rank": 2,
+          "chunk_id": "hardy-1940_p36_f3",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 36,
+          "section": "Section 21",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q16",
+          "rank": 3,
+          "chunk_id": "hardy-1940_p35_f2",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 35,
+          "section": "Section 20",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q17",
+          "rank": 1,
+          "chunk_id": "hardy-1940_p12_f4",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 12,
+          "section": "Section 6",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q17",
+          "rank": 2,
+          "chunk_id": "hardy-1940_p47_f3",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 47,
+          "section": "Section 28",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q17",
+          "rank": 3,
+          "chunk_id": "hardy-1940_p48_f2",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 48,
+          "section": "Section 28",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q18",
+          "rank": 1,
+          "chunk_id": "hardy-1940_p50_f0",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 50,
+          "section": "Section 29",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q18",
+          "rank": 2,
+          "chunk_id": "hardy-1940_p20_f4",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 20,
+          "section": "Section 11",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q18",
+          "rank": 3,
+          "chunk_id": "hardy-1940_p4_f0",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 4,
+          "section": "Preface",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q19",
+          "rank": 1,
+          "chunk_id": "hardy-1940_p55_f0",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 55,
+          "section": "Note",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q19",
+          "rank": 2,
+          "chunk_id": "hardy-1940_p48_f3",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 48,
+          "section": "Section 28",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q19",
+          "rank": 3,
+          "chunk_id": "hardy-1940_p55_f2",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 55,
+          "section": "Note",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q20",
+          "rank": 1,
+          "chunk_id": "hardy-1940_p56_f0",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 56,
+          "section": "Note",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q20",
+          "rank": 2,
+          "chunk_id": "hardy-1940_p42_f2",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 42,
+          "section": "Section 24",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q20",
+          "rank": 3,
+          "chunk_id": "hardy-1940_p14_f1",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 14,
+          "section": "Section 7",
+          "metadata_complete_and_correct": true
+        }
+      ]
+    },
+    "strategy_b": {
+      "valid_records": "15/15",
+      "compliance_rate": "100.0%",
+      "filter_compliance": "0/1",
+      "records": [
+        {
+          "question_id": "q16",
+          "rank": 1,
+          "chunk_id": "hardy-1940_p36_p2",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 36,
+          "section": "Section 21",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q16",
+          "rank": 2,
+          "chunk_id": "hardy-1940_p44_p1",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 44,
+          "section": "Section 26",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q16",
+          "rank": 3,
+          "chunk_id": "hardy-1940_p45_p0",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 45,
+          "section": "Section 26",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q17",
+          "rank": 1,
+          "chunk_id": "hardy-1940_p48_p1",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 48,
+          "section": "Section 28",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q17",
+          "rank": 2,
+          "chunk_id": "hardy-1940_p48_p0",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 48,
+          "section": "Section 28",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q17",
+          "rank": 3,
+          "chunk_id": "hardy-1940_p47_p2",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 47,
+          "section": "Section 28",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q18",
+          "rank": 1,
+          "chunk_id": "hardy-1940_p4_p0",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 4,
+          "section": "Preface",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q18",
+          "rank": 2,
+          "chunk_id": "hardy-1940_p55_p2",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 55,
+          "section": "Note",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q18",
+          "rank": 3,
+          "chunk_id": "hardy-1940_p50_p0",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 50,
+          "section": "Section 29",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q19",
+          "rank": 1,
+          "chunk_id": "hardy-1940_p55_p0",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 55,
+          "section": "Note",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q19",
+          "rank": 2,
+          "chunk_id": "hardy-1940_p48_p2",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 48,
+          "section": "Section 28",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q19",
+          "rank": 3,
+          "chunk_id": "hardy-1940_p55_p1",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 55,
+          "section": "Note",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q20",
+          "rank": 1,
+          "chunk_id": "hardy-1940_p56_p0",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 56,
+          "section": "Note",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q20",
+          "rank": 2,
+          "chunk_id": "hardy-1940_p41_p1",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 41,
+          "section": "Section 24",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q20",
+          "rank": 3,
+          "chunk_id": "hardy-1940_p18_p1",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 18,
+          "section": "Section 10",
+          "metadata_complete_and_correct": true
+        }
+      ]
+    },
+    "strategy_c": {
+      "valid_records": "15/15",
+      "compliance_rate": "100.0%",
+      "filter_compliance": "1/1",
+      "records": [
+        {
+          "question_id": "q16",
+          "rank": 1,
+          "chunk_id": "hardy-1940_p36_p2",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 36,
+          "section": "Section 21",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q16",
+          "rank": 2,
+          "chunk_id": "hardy-1940_p44_p1",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 44,
+          "section": "Section 26",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q16",
+          "rank": 3,
+          "chunk_id": "hardy-1940_p45_p0",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 45,
+          "section": "Section 26",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q17",
+          "rank": 1,
+          "chunk_id": "hardy-1940_p48_p1",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 48,
+          "section": "Section 28",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q17",
+          "rank": 2,
+          "chunk_id": "hardy-1940_p48_p0",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 48,
+          "section": "Section 28",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q17",
+          "rank": 3,
+          "chunk_id": "hardy-1940_p47_p2",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 47,
+          "section": "Section 28",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q18",
+          "rank": 1,
+          "chunk_id": "hardy-1940_p4_p0",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 4,
+          "section": "Preface",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q18",
+          "rank": 2,
+          "chunk_id": "hardy-1940_p55_p2",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 55,
+          "section": "Note",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q18",
+          "rank": 3,
+          "chunk_id": "hardy-1940_p50_p0",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 50,
+          "section": "Section 29",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q19",
+          "rank": 1,
+          "chunk_id": "hardy-1940_p55_p0",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 55,
+          "section": "Note",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q19",
+          "rank": 2,
+          "chunk_id": "hardy-1940_p55_p1",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 55,
+          "section": "Note",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q19",
+          "rank": 3,
+          "chunk_id": "hardy-1940_p55_p2",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 55,
+          "section": "Note",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q20",
+          "rank": 1,
+          "chunk_id": "hardy-1940_p56_p0",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 56,
+          "section": "Note",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q20",
+          "rank": 2,
+          "chunk_id": "hardy-1940_p41_p1",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 41,
+          "section": "Section 24",
+          "metadata_complete_and_correct": true
+        },
+        {
+          "question_id": "q20",
+          "rank": 3,
+          "chunk_id": "hardy-1940_p18_p1",
+          "source": "data/A_Mathematicians_Apology.pdf",
+          "page": 18,
+          "section": "Section 10",
+          "metadata_complete_and_correct": true
+        }
+      ]
+    }
+  },
+  "grounding_quality": {
+    "scale": "0 = Không có bằng chứng, 1 = Bằng chứng bộ phận/thiếu ngữ cảnh, 2 = Đủ bằng chứng trả lời và đối chiếu nguồn",
+    "strategy_a": {
+      "score_distribution": "Score 0: 0, Score 1: 3, Score 2: 2",
+      "average_score": 1.4,
+      "questions": [
+        {
+          "question_id": "q16",
+          "question": "What elementary branches of school mathematics does Hardy classify as genuinely useful in practical everyday life?",
+          "expected_answer": "Arithmetic, elementary algebra, elementary Euclidean geometry, and elementary differential and integral calculus.",
+          "gold_page": 44,
+          "hits": [
+            {
+              "rank": 1,
+              "page": 44,
+              "score": 2,
+              "reason": "Chunk trang 44 chứa trọn vẹn bằng chứng (evidence quote: 'First, the bulk of school mathematics, arithm...'), đủ thông tin trực tiếp để trả lời chính xác."
+            },
+            {
+              "rank": 2,
+              "page": 36,
+              "score": 0,
+              "reason": "Chunk trang 36 không chứa bằng chứng liên quan trực tiếp đến câu trả lời."
+            },
+            {
+              "rank": 3,
+              "page": 35,
+              "score": 0,
+              "reason": "Chunk trang 35 không chứa bằng chứng liên quan trực tiếp đến câu trả lời."
+            }
+          ],
+          "question_grounding_score": 2
+        },
+        {
+          "question_id": "q17",
+          "question": "Why does Hardy assert in Section 28 that pure or 'real' mathematics has no adverse effects on warfare?",
+          "expected_answer": "Because no warlike purpose has ever been discovered for pure mathematics such as the theory of numbers or relativity.",
+          "gold_page": 48,
+          "hits": [
+            {
+              "rank": 1,
+              "page": 12,
+              "score": 0,
+              "reason": "Chunk trang 12 không chứa bằng chứng liên quan trực tiếp đến câu trả lời."
+            },
+            {
+              "rank": 2,
+              "page": 47,
+              "score": 1,
+              "reason": "Chunk trang 47 nhắc đến một số thuật ngữ liên quan nhưng nằm ở luận điểm khác, không đủ căn cứ để kết luận."
+            },
+            {
+              "rank": 3,
+              "page": 48,
+              "score": 1,
+              "reason": "Chunk thuộc đúng trang nguồn 48 chứa ngữ cảnh bàn về chủ đề, nhưng chưa chứa trực tiếp phát biểu cốt lõi của câu hỏi."
+            }
+          ],
+          "question_grounding_score": 1
+        },
+        {
+          "question_id": "q18",
+          "question": "How does Hardy summarize his life's accomplishment and justification in the conclusion of Section 29?",
+          "expected_answer": "He has added something to knowledge and helped others add more, which has a lasting value differing only in degree from the creations of great artists.",
+          "gold_page": 54,
+          "hits": [
+            {
+              "rank": 1,
+              "page": 50,
+              "score": 1,
+              "reason": "Chunk trang 50 nhắc đến một số thuật ngữ liên quan nhưng nằm ở luận điểm khác, không đủ căn cứ để kết luận."
+            },
+            {
+              "rank": 2,
+              "page": 20,
+              "score": 0,
+              "reason": "Chunk trang 20 không chứa bằng chứng liên quan trực tiếp đến câu trả lời."
+            },
+            {
+              "rank": 3,
+              "page": 4,
+              "score": 0,
+              "reason": "Chunk trang 4 không chứa bằng chứng liên quan trực tiếp đến câu trả lời."
+            }
+          ],
+          "question_grounding_score": 1
+        },
+        {
+          "question_id": "q19",
+          "question": "In the author's Note at the end, what three systemic effects of science on war did critics urge Hardy to acknowledge?",
+          "expected_answer": "Organization of whole populations for war through scientific methods, increased power of propaganda used almost exclusively for evil, and the elimination of neutrality.",
+          "gold_page": 55,
+          "hits": [
+            {
+              "rank": 1,
+              "page": 55,
+              "score": 1,
+              "reason": "Chunk thuộc đúng trang nguồn 55 chứa ngữ cảnh bàn về chủ đề, nhưng chưa chứa trực tiếp phát biểu cốt lõi của câu hỏi."
+            },
+            {
+              "rank": 2,
+              "page": 48,
+              "score": 1,
+              "reason": "Chunk trang 48 nhắc đến một số thuật ngữ liên quan nhưng nằm ở luận điểm khác, không đủ căn cứ để kết luận."
+            },
+            {
+              "rank": 3,
+              "page": 55,
+              "score": 1,
+              "reason": "Chunk thuộc đúng trang nguồn 55 chứa ngữ cảnh bàn về chủ đề, nhưng chưa chứa trực tiếp phát biểu cốt lõi của câu hỏi."
+            }
+          ],
+          "question_grounding_score": 1
+        },
+        {
+          "question_id": "q20",
+          "question": "What metaphor concerning Nelson's Column in Trafalgar Square did J. M. Lomas propose regarding recognition and fame?",
+          "expected_answer": "Whether one would prefer a statue so high that it is invisible (Hardy's choice) or low enough for features to be recognized (Snow's probable choice).",
+          "gold_page": 56,
+          "hits": [
+            {
+              "rank": 1,
+              "page": 56,
+              "score": 2,
+              "reason": "Chunk trang 56 chứa trọn vẹn bằng chứng (evidence quote: 'If I had a statue on a column in London, woul...'), đủ thông tin trực tiếp để trả lời chính xác."
+            },
+            {
+              "rank": 2,
+              "page": 42,
+              "score": 0,
+              "reason": "Chunk trang 42 không chứa bằng chứng liên quan trực tiếp đến câu trả lời."
+            },
+            {
+              "rank": 3,
+              "page": 14,
+              "score": 0,
+              "reason": "Chunk trang 14 không chứa bằng chứng liên quan trực tiếp đến câu trả lời."
+            }
+          ],
+          "question_grounding_score": 2
+        }
+      ]
+    },
+    "strategy_b": {
+      "score_distribution": "Score 0: 0, Score 1: 2, Score 2: 3",
+      "average_score": 1.6,
+      "questions": [
+        {
+          "question_id": "q16",
+          "question": "What elementary branches of school mathematics does Hardy classify as genuinely useful in practical everyday life?",
+          "expected_answer": "Arithmetic, elementary algebra, elementary Euclidean geometry, and elementary differential and integral calculus.",
+          "gold_page": 44,
+          "hits": [
+            {
+              "rank": 1,
+              "page": 36,
+              "score": 0,
+              "reason": "Chunk trang 36 không chứa bằng chứng liên quan trực tiếp đến câu trả lời."
+            },
+            {
+              "rank": 2,
+              "page": 44,
+              "score": 1,
+              "reason": "Chunk thuộc đúng trang nguồn 44 chứa ngữ cảnh bàn về chủ đề, nhưng chưa chứa trực tiếp phát biểu cốt lõi của câu hỏi."
+            },
+            {
+              "rank": 3,
+              "page": 45,
+              "score": 0,
+              "reason": "Chunk trang 45 không chứa bằng chứng liên quan trực tiếp đến câu trả lời."
+            }
+          ],
+          "question_grounding_score": 1
+        },
+        {
+          "question_id": "q17",
+          "question": "Why does Hardy assert in Section 28 that pure or 'real' mathematics has no adverse effects on warfare?",
+          "expected_answer": "Because no warlike purpose has ever been discovered for pure mathematics such as the theory of numbers or relativity.",
+          "gold_page": 48,
+          "hits": [
+            {
+              "rank": 1,
+              "page": 48,
+              "score": 1,
+              "reason": "Chunk thuộc đúng trang nguồn 48 chứa ngữ cảnh bàn về chủ đề, nhưng chưa chứa trực tiếp phát biểu cốt lõi của câu hỏi."
+            },
+            {
+              "rank": 2,
+              "page": 48,
+              "score": 2,
+              "reason": "Chunk trang 48 chứa trọn vẹn bằng chứng (evidence quote: 'Real mathematics has no effects on war. No on...'), đủ thông tin trực tiếp để trả lời chính xác."
+            },
+            {
+              "rank": 3,
+              "page": 47,
+              "score": 1,
+              "reason": "Chunk trang 47 nhắc đến một số thuật ngữ liên quan nhưng nằm ở luận điểm khác, không đủ căn cứ để kết luận."
+            }
+          ],
+          "question_grounding_score": 2
+        },
+        {
+          "question_id": "q18",
+          "question": "How does Hardy summarize his life's accomplishment and justification in the conclusion of Section 29?",
+          "expected_answer": "He has added something to knowledge and helped others add more, which has a lasting value differing only in degree from the creations of great artists.",
+          "gold_page": 54,
+          "hits": [
+            {
+              "rank": 1,
+              "page": 4,
+              "score": 0,
+              "reason": "Chunk trang 4 không chứa bằng chứng liên quan trực tiếp đến câu trả lời."
+            },
+            {
+              "rank": 2,
+              "page": 55,
+              "score": 0,
+              "reason": "Chunk trang 55 không chứa bằng chứng liên quan trực tiếp đến câu trả lời."
+            },
+            {
+              "rank": 3,
+              "page": 50,
+              "score": 1,
+              "reason": "Chunk trang 50 nhắc đến một số thuật ngữ liên quan nhưng nằm ở luận điểm khác, không đủ căn cứ để kết luận."
+            }
+          ],
+          "question_grounding_score": 1
+        },
+        {
+          "question_id": "q19",
+          "question": "In the author's Note at the end, what three systemic effects of science on war did critics urge Hardy to acknowledge?",
+          "expected_answer": "Organization of whole populations for war through scientific methods, increased power of propaganda used almost exclusively for evil, and the elimination of neutrality.",
+          "gold_page": 55,
+          "hits": [
+            {
+              "rank": 1,
+              "page": 55,
+              "score": 1,
+              "reason": "Chunk thuộc đúng trang nguồn 55 chứa ngữ cảnh bàn về chủ đề, nhưng chưa chứa trực tiếp phát biểu cốt lõi của câu hỏi."
+            },
+            {
+              "rank": 2,
+              "page": 48,
+              "score": 0,
+              "reason": "Chunk trang 48 không chứa bằng chứng liên quan trực tiếp đến câu trả lời."
+            },
+            {
+              "rank": 3,
+              "page": 55,
+              "score": 2,
+              "reason": "Chunk trang 55 chứa trọn vẹn bằng chứng (evidence quote: '(a) that the organization of an entire popula...'), đủ thông tin trực tiếp để trả lời chính xác."
+            }
+          ],
+          "question_grounding_score": 2
+        },
+        {
+          "question_id": "q20",
+          "question": "What metaphor concerning Nelson's Column in Trafalgar Square did J. M. Lomas propose regarding recognition and fame?",
+          "expected_answer": "Whether one would prefer a statue so high that it is invisible (Hardy's choice) or low enough for features to be recognized (Snow's probable choice).",
+          "gold_page": 56,
+          "hits": [
+            {
+              "rank": 1,
+              "page": 56,
+              "score": 2,
+              "reason": "Chunk trang 56 chứa trọn vẹn bằng chứng (evidence quote: 'If I had a statue on a column in London, woul...'), đủ thông tin trực tiếp để trả lời chính xác."
+            },
+            {
+              "rank": 2,
+              "page": 41,
+              "score": 0,
+              "reason": "Chunk trang 41 không chứa bằng chứng liên quan trực tiếp đến câu trả lời."
+            },
+            {
+              "rank": 3,
+              "page": 18,
+              "score": 0,
+              "reason": "Chunk trang 18 không chứa bằng chứng liên quan trực tiếp đến câu trả lời."
+            }
+          ],
+          "question_grounding_score": 2
+        }
+      ]
+    },
+    "strategy_c": {
+      "score_distribution": "Score 0: 0, Score 1: 2, Score 2: 3",
+      "average_score": 1.6,
+      "questions": [
+        {
+          "question_id": "q16",
+          "question": "What elementary branches of school mathematics does Hardy classify as genuinely useful in practical everyday life?",
+          "expected_answer": "Arithmetic, elementary algebra, elementary Euclidean geometry, and elementary differential and integral calculus.",
+          "gold_page": 44,
+          "hits": [
+            {
+              "rank": 1,
+              "page": 36,
+              "score": 0,
+              "reason": "Chunk trang 36 không chứa bằng chứng liên quan trực tiếp đến câu trả lời."
+            },
+            {
+              "rank": 2,
+              "page": 44,
+              "score": 1,
+              "reason": "Chunk thuộc đúng trang nguồn 44 chứa ngữ cảnh bàn về chủ đề, nhưng chưa chứa trực tiếp phát biểu cốt lõi của câu hỏi."
+            },
+            {
+              "rank": 3,
+              "page": 45,
+              "score": 0,
+              "reason": "Chunk trang 45 không chứa bằng chứng liên quan trực tiếp đến câu trả lời."
+            }
+          ],
+          "question_grounding_score": 1
+        },
+        {
+          "question_id": "q17",
+          "question": "Why does Hardy assert in Section 28 that pure or 'real' mathematics has no adverse effects on warfare?",
+          "expected_answer": "Because no warlike purpose has ever been discovered for pure mathematics such as the theory of numbers or relativity.",
+          "gold_page": 48,
+          "hits": [
+            {
+              "rank": 1,
+              "page": 48,
+              "score": 1,
+              "reason": "Chunk thuộc đúng trang nguồn 48 chứa ngữ cảnh bàn về chủ đề, nhưng chưa chứa trực tiếp phát biểu cốt lõi của câu hỏi."
+            },
+            {
+              "rank": 2,
+              "page": 48,
+              "score": 2,
+              "reason": "Chunk trang 48 chứa trọn vẹn bằng chứng (evidence quote: 'Real mathematics has no effects on war. No on...'), đủ thông tin trực tiếp để trả lời chính xác."
+            },
+            {
+              "rank": 3,
+              "page": 47,
+              "score": 1,
+              "reason": "Chunk trang 47 nhắc đến một số thuật ngữ liên quan nhưng nằm ở luận điểm khác, không đủ căn cứ để kết luận."
+            }
+          ],
+          "question_grounding_score": 2
+        },
+        {
+          "question_id": "q18",
+          "question": "How does Hardy summarize his life's accomplishment and justification in the conclusion of Section 29?",
+          "expected_answer": "He has added something to knowledge and helped others add more, which has a lasting value differing only in degree from the creations of great artists.",
+          "gold_page": 54,
+          "hits": [
+            {
+              "rank": 1,
+              "page": 4,
+              "score": 0,
+              "reason": "Chunk trang 4 không chứa bằng chứng liên quan trực tiếp đến câu trả lời."
+            },
+            {
+              "rank": 2,
+              "page": 55,
+              "score": 0,
+              "reason": "Chunk trang 55 không chứa bằng chứng liên quan trực tiếp đến câu trả lời."
+            },
+            {
+              "rank": 3,
+              "page": 50,
+              "score": 1,
+              "reason": "Chunk trang 50 nhắc đến một số thuật ngữ liên quan nhưng nằm ở luận điểm khác, không đủ căn cứ để kết luận."
+            }
+          ],
+          "question_grounding_score": 1
+        },
+        {
+          "question_id": "q19",
+          "question": "In the author's Note at the end, what three systemic effects of science on war did critics urge Hardy to acknowledge?",
+          "expected_answer": "Organization of whole populations for war through scientific methods, increased power of propaganda used almost exclusively for evil, and the elimination of neutrality.",
+          "gold_page": 55,
+          "hits": [
+            {
+              "rank": 1,
+              "page": 55,
+              "score": 1,
+              "reason": "Chunk thuộc đúng trang nguồn 55 chứa ngữ cảnh bàn về chủ đề, nhưng chưa chứa trực tiếp phát biểu cốt lõi của câu hỏi."
+            },
+            {
+              "rank": 2,
+              "page": 55,
+              "score": 2,
+              "reason": "Chunk trang 55 chứa trọn vẹn bằng chứng (evidence quote: '(a) that the organization of an entire popula...'), đủ thông tin trực tiếp để trả lời chính xác."
+            },
+            {
+              "rank": 3,
+              "page": 55,
+              "score": 1,
+              "reason": "Chunk thuộc đúng trang nguồn 55 chứa ngữ cảnh bàn về chủ đề, nhưng chưa chứa trực tiếp phát biểu cốt lõi của câu hỏi."
+            }
+          ],
+          "question_grounding_score": 2
+        },
+        {
+          "question_id": "q20",
+          "question": "What metaphor concerning Nelson's Column in Trafalgar Square did J. M. Lomas propose regarding recognition and fame?",
+          "expected_answer": "Whether one would prefer a statue so high that it is invisible (Hardy's choice) or low enough for features to be recognized (Snow's probable choice).",
+          "gold_page": 56,
+          "hits": [
+            {
+              "rank": 1,
+              "page": 56,
+              "score": 2,
+              "reason": "Chunk trang 56 chứa trọn vẹn bằng chứng (evidence quote: 'If I had a statue on a column in London, woul...'), đủ thông tin trực tiếp để trả lời chính xác."
+            },
+            {
+              "rank": 2,
+              "page": 41,
+              "score": 0,
+              "reason": "Chunk trang 41 không chứa bằng chứng liên quan trực tiếp đến câu trả lời."
+            },
+            {
+              "rank": 3,
+              "page": 18,
+              "score": 0,
+              "reason": "Chunk trang 18 không chứa bằng chứng liên quan trực tiếp đến câu trả lời."
+            }
+          ],
+          "question_grounding_score": 2
+        }
+      ]
+    }
+  }
+}

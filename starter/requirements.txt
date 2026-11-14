@@ -1,4 +1,6 @@
-# Core setup and PDF parsing. Choose and install an embedding SDK separately.
+# Core setup and PDF parsing. Local and API embedding options.
 psycopg[binary]==3.3.8
 pypdf>=5,<7
 python-dotenv>=1,<2
+requests>=2.31.0
+fastembed>=0.9.0

@@ -1,0 +1,228 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "direct",
+    "question": "Who were the two scholars who provided valuable criticisms on Hardy's original manuscript?",
+    "expected_answer": "Professor C. D. Broad and Dr C. P. Snow",
+    "gold_source_id": "hardy-1940",
+    "gold_page": 4,
+    "evidence_quote": "I am indebted for many valuable criticisms to Professor C. D. Broad and Dr C. P. Snow, each of whom read my original manuscript.",
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "direct",
+    "question": "According to Hardy in Section 1, what is the proper function of a professional mathematician?",
+    "expected_answer": "To do something, prove new theorems, and add to mathematics, rather than talk about what others have done.",
+    "gold_source_id": "hardy-1940",
+    "gold_page": 5,
+    "evidence_quote": "The function of a mathematician is to do something, to prove new theorems, to add to mathematics, and not to talk about what he or other mathematicians have done.",
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Why does Hardy consider exposition, criticism, and appreciation to be activities for second-rate minds?",
+    "expected_answer": "Because creators naturally despise critics and explainers, and making is fundamentally superior to explaining.",
+    "gold_source_id": "hardy-1940",
+    "gold_page": 5,
+    "evidence_quote": "there is no scorn more profound, or on the whole more justifiable, than that of the men who make for the men who explain. Exposition, criticism, appreciation, is work for second-rate minds.",
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "direct",
+    "question": "Which prominent poet and scholar did Hardy have a serious conversation with regarding the value of poetry and criticism?",
+    "expected_answer": "A. E. Housman",
+    "gold_source_id": "hardy-1940",
+    "gold_page": 5,
+    "evidence_quote": "I can remember arguing this point once in one of the few serious conversations that I ever had with Housman. Housman, in his Leslie Stephen lecture The Name and Nature of Poetry",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In Section 4, under what circumstances can a mathematician's sacrifice of their talent to do work in other fields be justified?",
+    "expected_answer": "Only by economic necessity or age.",
+    "gold_source_id": "hardy-1940",
+    "gold_page": 10,
+    "evidence_quote": "Such a sacrifice could be justified only by economic necessity or age.",
+    "filter": {
+      "section": "Section 4"
+    }
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "direct",
+    "question": "What government position did Sir Isaac Newton hold later in his life after largely abandoning mathematics?",
+    "expected_answer": "Master of the Mint",
+    "gold_source_id": "hardy-1940",
+    "gold_page": 11,
+    "evidence_quote": "Newton made a quite competent Master of the Mint (when he was not quarrelling with anybody). Painlevé was a not very successful Premier of France.",
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "conditional",
+    "question": "What does Hardy observe regarding major mathematical advances initiated by mathematicians past fifty years of age?",
+    "expected_answer": "He does not know of any instance of a major mathematical advance initiated by a person past fifty.",
+    "gold_source_id": "hardy-1940",
+    "gold_page": 11,
+    "evidence_quote": "I do not know an instance of a major mathematical advance initiated by a man past fifty.",
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "direct",
+    "question": "In Section 8, what are the three chief motives that Hardy lists for doing scientific research?",
+    "expected_answer": "Intellectual curiosity, professional pride, and ambition.",
+    "gold_source_id": "hardy-1940",
+    "gold_page": 15,
+    "evidence_quote": "There are many highly respected motives which may lead men to prosecute research, but three which are much more important than the rest. The first (without which the rest must come to nothing) is intellectual curiosity, desire to know the truth. Then, professional pride",
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "How does Hardy compare mathematicians to painters and poets regarding the patterns they create?",
+    "expected_answer": "A mathematician is a maker of patterns with ideas, which may be more permanent than the patterns of forms or words made by painters and poets.",
+    "gold_source_id": "hardy-1940",
+    "gold_page": 17,
+    "evidence_quote": "A mathematician, like a painter or a poet, is a maker of patterns. If his patterns are more permanent than theirs, it is because they are made with ideas.",
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "direct",
+    "question": "What musical metaphor does Hardy use to describe chess problems in relation to mathematics?",
+    "expected_answer": "Chess problems are the hymn-tunes of mathematics.",
+    "gold_source_id": "hardy-1940",
+    "gold_page": 19,
+    "evidence_quote": "Chess problems are the hymn-tunes of mathematics.",
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In Section 11, why does Hardy characterize chess problems as trivial mathematics despite their ingenuity?",
+    "expected_answer": "Because chess problems, however ingenious and intricate, are unimportant and lack genuine seriousness.",
+    "gold_source_id": "hardy-1940",
+    "gold_page": 20,
+    "evidence_quote": "A chess problem is genuine mathematics, but it is in some way ‘trivial’ mathematics. However ingenious and intricate, however original and surprising the moves, there is something essential lacking. Chess problems are unimportant. The best mathematics is serious as well as beautiful",
+    "filter": {
+      "section": "Section 11"
+    }
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "direct",
+    "question": "Which two classical Greek theorems does Hardy present to illustrate first-rate, genuine mathematical beauty?",
+    "expected_answer": "Euclid's proof of the infinity of primes and Pythagoras's proof of the irrationality of the square root of 2.",
+    "gold_source_id": "hardy-1940",
+    "gold_page": 22,
+    "evidence_quote": "I will state and prove two of the famous theorems of Greek mathematics. They are ‘simple’ theorems, simple both in idea and in execution, but there is no doubt at all about their being theorems of the highest class.",
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What geometric fact follows directly from Pythagoras's proof of the irrationality of root 2?",
+    "expected_answer": "The diagonal of a square is incommensurable with its side.",
+    "gold_source_id": "hardy-1940",
+    "gold_page": 24,
+    "evidence_quote": "It follows from Pythagoras’s theorem that the diagonal of a square is incommensurable with the side (that their ratio is not a rational number",
+    "filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "conditional",
+    "question": "Why will Archimedes be remembered long after the tragic dramatist Aeschylus is forgotten?",
+    "expected_answer": "Because human languages die out while mathematical ideas do not.",
+    "gold_source_id": "hardy-1940",
+    "gold_page": 16,
+    "evidence_quote": "Archimedes will be remembered when Aeschylus is forgotten, because languages die and mathematical ideas do not.",
+    "filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "direct",
+    "question": "What is Hardy's philosophical stance regarding mathematical reality described in Section 22?",
+    "expected_answer": "He believes mathematical reality lies outside us, and our role is to discover or observe it rather than construct it.",
+    "gold_source_id": "hardy-1940",
+    "gold_page": 39,
+    "evidence_quote": "I believe that mathematical reality lies outside us, that our function is to discover or observe it, and that the theorems which we prove, and which we describe grandiloquently as our ‘creations’, are simply our notes of our observations.",
+    "filter": null
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "direct",
+    "question": "What elementary branches of school mathematics does Hardy classify as genuinely useful in practical everyday life?",
+    "expected_answer": "Arithmetic, elementary algebra, elementary Euclidean geometry, and elementary differential and integral calculus.",
+    "gold_source_id": "hardy-1940",
+    "gold_page": 44,
+    "evidence_quote": "First, the bulk of school mathematics, arithmetic, elementary algebra, elementary Euclidean geometry, elementary differential and integral calculus.",
+    "filter": null
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "conditional",
+    "question": "Why does Hardy assert in Section 28 that pure or 'real' mathematics has no adverse effects on warfare?",
+    "expected_answer": "Because no warlike purpose has ever been discovered for pure mathematics such as the theory of numbers or relativity.",
+    "gold_source_id": "hardy-1940",
+    "gold_page": 48,
+    "evidence_quote": "Real mathematics has no effects on war. No one has yet discovered any warlike purpose to be served by the theory of numbers or relativity",
+    "filter": null
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "How does Hardy summarize his life's accomplishment and justification in the conclusion of Section 29?",
+    "expected_answer": "He has added something to knowledge and helped others add more, which has a lasting value differing only in degree from the creations of great artists.",
+    "gold_source_id": "hardy-1940",
+    "gold_page": 54,
+    "evidence_quote": "I have added something to knowledge, and helped others to add more; and that these somethings have a value which differs in degree only, and not in kind, from that of the creations of the great mathematicians",
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "In the author's Note at the end, what three systemic effects of science on war did critics urge Hardy to acknowledge?",
+    "expected_answer": "Organization of whole populations for war through scientific methods, increased power of propaganda used almost exclusively for evil, and the elimination of neutrality.",
+    "gold_source_id": "hardy-1940",
+    "gold_page": 55,
+    "evidence_quote": "(a) that the organization of an entire population for war is only possible through scientific methods; (b) that science has greatly increased the power of propaganda, which is used almost exclusively for evil; and (c) that it has made ‘neutrality’ almost impossible",
+    "filter": {
+      "section": "Note"
+    }
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "direct",
+    "question": "What metaphor concerning Nelson's Column in Trafalgar Square did J. M. Lomas propose regarding recognition and fame?",
+    "expected_answer": "Whether one would prefer a statue so high that it is invisible (Hardy's choice) or low enough for features to be recognized (Snow's probable choice).",
+    "gold_source_id": "hardy-1940",
+    "gold_page": 56,
+    "evidence_quote": "If I had a statue on a column in London, would I prefer the columns to be so high that the statue was invisible, or low enough for the features to be recognizable? I would choose the first alternative",
+    "filter": null
+  }
+]
